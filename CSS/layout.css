@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('IMAGENS/fundo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.principal {
+    width: 1000px;
+    margin: 0 auto; 
+    position: relative;
+}
+
+.topo {
+    width: 100%;
+    height: 60px;
+    background: #2a1aaf; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.logo a {
+    font-size: 30px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a {
+    font-size: 18px;
+    color: #e0e0ff; /* tom mais claro e harmonioso */
+    text-decoration: none;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #ffd700; /* dourado suave no hover */
+}
+
+.corpo {
+    width: 100%;
+    max-width: 1000px;
+    background: rgba(230, 226, 226, 0.95);
+    margin: 80px auto 60px auto; /* abaixo do topo fixo, centralizado */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(185, 180, 180, 0.1);
+}
+
+.formulario {
+    width: 300px;
+    background: rgb(74, 226, 247);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.formatacamposdetexto {
+    border-radius: 5px;
+    border-style: none;
+    background: #dfdfdf;
+    height: 30px;
+    width: 100%;
+    font-size: 14px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.formatatextarea {
+    border-radius: 5px;
+    border-style: none;
+    background: #dfdfdf;
+    height: 80px;
+    width: 100%;
+    font-size: 14px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    background: #2a1aaf;
+    color: #ffffff;
+    height: 40px;
+    border-radius: 7px;
+    border-style: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #210d85;
+}
+
+.rodape {
+    width: 100%;
+    height: 60px;
+    background: #0f034f;
+    color: #ffffff;
+    text-align: center;
+    line-height: 60px;
+    position: relative;
+    margin-top: 40px;
+    border-radius: 0 0 10px 10px;
+}
